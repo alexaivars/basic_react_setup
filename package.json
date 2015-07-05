@@ -1,0 +1,41 @@
+{
+  "name": "basic_react_setup",
+  "version": "1.33.7",
+  "description": "this is where it starts getting messy",
+  "engines": {
+    "iojs": "2.3.x"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Terezka/basic_react_setup.git"
+  },
+  "keywords": [
+    "react",
+    "bable",
+    "emoji",
+    "starter"
+  ],
+  "author": "random",
+  "license": "Beerware",
+  "bugs": {
+    "url": "https://github.com/Terezka/basic_react_setup/issues"
+  },
+  "homepage": "https://github.com/Terezka/basic_react_setup#readme",
+  "dependencies": {
+    "react": "^0.13.0"
+  },
+  "devDependencies": {
+    "babel-core": "^5.4.7",
+    "babel-eslint": "^3.1.9",
+    "babel-loader": "^5.1.2",
+    "emoji-loader": "alexaivars/emoji-loader",
+    "eslint-plugin-react": "^2.3.0",
+    "react-hot-loader": "^1.2.7",
+    "webpack": "^1.9.6",
+    "webpack-dev-server": "^1.8.2"
+  }
+}
